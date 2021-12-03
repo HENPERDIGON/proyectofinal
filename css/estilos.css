@@ -41,6 +41,7 @@
         }
         a{
             color: white;
+            font-size: 1em;
         }
         .ruta{
             width: 80%;
@@ -49,9 +50,10 @@
 
         .ruta img{
             width: 100%;
+            align-items: center;
         }
         header nav ul li{
-            font-weight: 600;
+            font-weight: 300;
             display: inline;   
             font-family: sans-serif 
             }
@@ -64,7 +66,7 @@
             }
 
             .titulo{
-                font-size: 50rem;
+                font-size: 1em;
                 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
                 text-align: center;
             padding-bottom: 30px;
@@ -77,13 +79,12 @@
             }
 
             .texto{
-                font-size: 23rem;
+                width: 80% ;
+                margin: auto;
+                font-size: 1em;
                 font-family: Arial, Helvetica, sans-serif;
-                text-align: justify;
-                padding-top: 30px;
-                margin-left: 130px;
-                margin-right: 130px;
-
+                text-align: center;
+                
             }
 
             /*Lugares*/
@@ -104,28 +105,14 @@
                 padding-left: 30px;
             }
 
-            .lugar1{
-                font-size: 20px;
+            .lugar1, .lugar2, .lugar3, .lugar4{
+                font-size: 1em;
                 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
                 text-align: center;
                 
             }
 
-            .lugar2{
-                font-size: 20px;
-                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                text-align: center;
-            }
-            .lugar3{
-                font-size: 20px;
-                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                text-align: center;
-            }
-            .lugar4{
-                font-size: 20px;
-                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                text-align: center;
-            }
+          
 
         /* footer */
 
@@ -166,6 +153,7 @@
         
             a{
                 color: white;
+                font-size: 1em;
             }
             header nav ul li{
                font-weight: 600;
@@ -278,9 +266,10 @@
                 
             }
         
-            a{
+        /*     a{
                 color: white;
-            }
+                font-size: 1em;
+            } */
             header nav ul li{
                font-weight: 600;
                 display: inline;   
@@ -372,9 +361,10 @@
             
         }
     
-        a{
+/*         a{
             color: white;
-        }
+            font-size: 1em;
+        } */
         header nav ul li{
            font-weight: 600;
             display: inline;   
@@ -476,9 +466,10 @@
             
         }
     
-        a{
+  /*       a{
             color: white;
-        }
+            font-size: 1em;
+        } */
         header nav ul li{
            font-weight: 600;
             display: inline;   
